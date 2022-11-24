@@ -14,6 +14,20 @@
 		080E1594292D021500E2B06B /* Pilot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 080E1592292D021500E2B06B /* Pilot.xcdatamodeld */; };
 		080E1596292D021600E2B06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080E1595292D021600E2B06B /* Assets.xcassets */; };
 		080E1599292D021600E2B06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080E1597292D021600E2B06B /* LaunchScreen.storyboard */; };
+		080E15A2292D141F00E2B06B /* DoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15A1292D141F00E2B06B /* DoctorView.swift */; };
+		080E15A4292D142400E2B06B /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15A3292D142400E2B06B /* Patient.swift */; };
+		080E15A6292D142B00E2B06B /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15A5292D142B00E2B06B /* Appointment.swift */; };
+		080E15A8292D144700E2B06B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15A7292D144700E2B06B /* MainView.swift */; };
+		080E15AA292D19C700E2B06B /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15A9292D19C700E2B06B /* More.swift */; };
+		080E15AD292D35E500E2B06B /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15AC292D35E500E2B06B /* Doctor.swift */; };
+		080E15AF292E883700E2B06B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15AE292E883700E2B06B /* LoginView.swift */; };
+		080E15B1292E8BE300E2B06B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15B0292E8BE300E2B06B /* RegisterView.swift */; };
+		080E15B3292E988800E2B06B /* CreateDoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15B2292E988800E2B06B /* CreateDoctorView.swift */; };
+		080E15B5292E99D000E2B06B /* PetientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15B4292E99D000E2B06B /* PetientView.swift */; };
+		080E15B7292E99EC00E2B06B /* CreatePatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15B6292E99EC00E2B06B /* CreatePatientView.swift */; };
+		080E15B9292E9A9800E2B06B /* DoctorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15B8292E9A9800E2B06B /* DoctorDetailView.swift */; };
+		080E15BB292E9AA900E2B06B /* PetientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15BA292E9AA900E2B06B /* PetientDetailView.swift */; };
+		080E15BD292EBF4900E2B06B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E15BC292EBF4900E2B06B /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,20 @@
 		080E1595292D021600E2B06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		080E1598292D021600E2B06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		080E159A292D021600E2B06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080E15A1292D141F00E2B06B /* DoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorView.swift; sourceTree = "<group>"; };
+		080E15A3292D142400E2B06B /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		080E15A5292D142B00E2B06B /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		080E15A7292D144700E2B06B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		080E15A9292D19C700E2B06B /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+		080E15AC292D35E500E2B06B /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		080E15AE292E883700E2B06B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		080E15B0292E8BE300E2B06B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		080E15B2292E988800E2B06B /* CreateDoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDoctorView.swift; sourceTree = "<group>"; };
+		080E15B4292E99D000E2B06B /* PetientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetientView.swift; sourceTree = "<group>"; };
+		080E15B6292E99EC00E2B06B /* CreatePatientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePatientView.swift; sourceTree = "<group>"; };
+		080E15B8292E9A9800E2B06B /* DoctorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailView.swift; sourceTree = "<group>"; };
+		080E15BA292E9AA900E2B06B /* PetientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetientDetailView.swift; sourceTree = "<group>"; };
+		080E15BC292EBF4900E2B06B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 		080E1588292D021500E2B06B /* Pilot */ = {
 			isa = PBXGroup;
 			children = (
+				080E15AB292D35DA00E2B06B /* Model */,
 				080E1589292D021500E2B06B /* AppDelegate.swift */,
 				080E158B292D021500E2B06B /* SceneDelegate.swift */,
 				080E158D292D021500E2B06B /* ViewController.swift */,
@@ -66,8 +95,29 @@
 				080E1597292D021600E2B06B /* LaunchScreen.storyboard */,
 				080E159A292D021600E2B06B /* Info.plist */,
 				080E1592292D021500E2B06B /* Pilot.xcdatamodeld */,
+				080E15A1292D141F00E2B06B /* DoctorView.swift */,
+				080E15A3292D142400E2B06B /* Patient.swift */,
+				080E15A5292D142B00E2B06B /* Appointment.swift */,
+				080E15A7292D144700E2B06B /* MainView.swift */,
+				080E15A9292D19C700E2B06B /* More.swift */,
+				080E15AE292E883700E2B06B /* LoginView.swift */,
+				080E15B0292E8BE300E2B06B /* RegisterView.swift */,
+				080E15B2292E988800E2B06B /* CreateDoctorView.swift */,
+				080E15B4292E99D000E2B06B /* PetientView.swift */,
+				080E15B6292E99EC00E2B06B /* CreatePatientView.swift */,
+				080E15B8292E9A9800E2B06B /* DoctorDetailView.swift */,
+				080E15BA292E9AA900E2B06B /* PetientDetailView.swift */,
+				080E15BC292EBF4900E2B06B /* SearchView.swift */,
 			);
 			path = Pilot;
+			sourceTree = "<group>";
+		};
+		080E15AB292D35DA00E2B06B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				080E15AC292D35E500E2B06B /* Doctor.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +191,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080E15B5292E99D000E2B06B /* PetientView.swift in Sources */,
+				080E15B3292E988800E2B06B /* CreateDoctorView.swift in Sources */,
 				080E158E292D021500E2B06B /* ViewController.swift in Sources */,
+				080E15AA292D19C700E2B06B /* More.swift in Sources */,
+				080E15A8292D144700E2B06B /* MainView.swift in Sources */,
+				080E15A2292D141F00E2B06B /* DoctorView.swift in Sources */,
 				080E158A292D021500E2B06B /* AppDelegate.swift in Sources */,
 				080E1594292D021500E2B06B /* Pilot.xcdatamodeld in Sources */,
+				080E15AD292D35E500E2B06B /* Doctor.swift in Sources */,
 				080E158C292D021500E2B06B /* SceneDelegate.swift in Sources */,
+				080E15BD292EBF4900E2B06B /* SearchView.swift in Sources */,
+				080E15B9292E9A9800E2B06B /* DoctorDetailView.swift in Sources */,
+				080E15AF292E883700E2B06B /* LoginView.swift in Sources */,
+				080E15BB292E9AA900E2B06B /* PetientDetailView.swift in Sources */,
+				080E15B7292E99EC00E2B06B /* CreatePatientView.swift in Sources */,
+				080E15B1292E8BE300E2B06B /* RegisterView.swift in Sources */,
+				080E15A6292D142B00E2B06B /* Appointment.swift in Sources */,
+				080E15A4292D142400E2B06B /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
